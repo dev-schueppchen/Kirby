@@ -5,8 +5,8 @@ import (
 	"os"
 	"path"
 
+	"github.com/dev-schueppchen/Kirby/internal/database"
 	"github.com/ghodss/yaml"
-	"github.com/zekroTJA/kirby/internal/database"
 )
 
 type Main struct {

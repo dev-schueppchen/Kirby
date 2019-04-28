@@ -3,10 +3,10 @@ package handlers
 import (
 	"time"
 
-	"github.com/zekroTJA/kirby/internal/logger"
+	"github.com/dev-schueppchen/Kirby/internal/logger"
 
 	"github.com/bwmarrin/discordgo"
-	"github.com/zekroTJA/kirby/internal/database"
+	"github.com/dev-schueppchen/Kirby/internal/database"
 )
 
 type Reaction struct {

@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"github.com/bwmarrin/discordgo"
-	"github.com/zekroTJA/kirby/internal/database"
-	"github.com/zekroTJA/kirby/internal/discord/watchers"
-	"github.com/zekroTJA/kirby/internal/logger"
-	"github.com/zekroTJA/kirby/internal/static"
+	"github.com/dev-schueppchen/Kirby/internal/database"
+	"github.com/dev-schueppchen/Kirby/internal/discord/watchers"
+	"github.com/dev-schueppchen/Kirby/internal/logger"
+	"github.com/dev-schueppchen/Kirby/internal/static"
 )
 
 type Ready struct {

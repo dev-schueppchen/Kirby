@@ -2,9 +2,9 @@ package discord
 
 import (
 	"github.com/bwmarrin/discordgo"
-	"github.com/zekroTJA/kirby/internal/config"
-	"github.com/zekroTJA/kirby/internal/database"
-	"github.com/zekroTJA/kirby/internal/discord/handlers"
+	"github.com/dev-schueppchen/Kirby/internal/config"
+	"github.com/dev-schueppchen/Kirby/internal/database"
+	"github.com/dev-schueppchen/Kirby/internal/discord/handlers"
 )
 
 type Discord struct {
