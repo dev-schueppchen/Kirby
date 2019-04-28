@@ -63,6 +63,11 @@ func (mc *MemberCount) pollRoleStatus(guild *discordgo.Guild) {
 
 		for _, rID := range memb.Roles {
 			rs := roleStatus[rID]
+
+			if rs == nil {
+				continue
+			}
+
 			switch presence.Status {
 			case discordgo.StatusOnline:
 				rs.Online++
