@@ -1,0 +1,9 @@
+.media/
+build/
+scripts/
+.gitignore
+.git/
+Gopkg.lock
+Makefile
+*.md
+bin/
